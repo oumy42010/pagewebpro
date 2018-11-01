@@ -1,0 +1,115 @@
+
+
+body{
+  /*background: url("../images/blurry-blue.jpg"); */
+  background-color: #DBE9EE;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  justify-content: center; 
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family:  'Droid Serif', 'PT Sans', 'Molengo', Georgia;
+  padding: 10px 10px 10px 10px;
+  background-size: cover;
+}
+section {
+  padding: 5px 5px 5px 5px;
+  background-color: #C0D6DF;
+  background-attachment:fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+  justify-content: center;
+  color: #375D81;
+    -moz-border-radius:20px 0;
+    -webkit-border-radius:20px 0;
+    border-radius:5px 5px 5px 5px;
+    margin-bottom: 40px;
+    padding:10px 10px 10px 10px;
+}
+
+
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ h2{
+  color: #FFEFB6;
+  text-align: center;
+  margin-bottom: 15px;
+}
+ h3{
+  color: #FFEFB6;
+  text-align: center;
+  margin-bottom: 10px;
+}
+ h4{
+  color: #4F6D7A;
+  font-size:1.5em;
+  text-align: center;
+  margin-bottom: 25px; 
+}
+
+ h5{
+  color: black;
+  font-size:1.3em;
+  text-align: center;
+  margin-bottom: 25px; 
+}
+h6{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-family:  'Allerta', 'Crimson Text', 'PT Sans';
+}
+p{
+  color: #375D81;
+  font-size:16px;
+  line-height: 25px;
+  font-family:  'Allerta', 'Crimson Text', 'PT Sans';
+}
+
+
+ul li{
+  color: black;
+   list-style:none;
+  font-size:16px;
+  line-height: 25px;
+  font-family:  'Allerta', 'Crimson Text', 'PT Sans';
+}
+p a{
+  font-size:18px;
+} 
+a{
+  color: #183152;
+  text-decoration: none;
+  font-size: 16px;
+   font-family: 'Josefin Sans', 'Lekton', 'Cardo';
+}
+a:hover{
+  text-decoration: none;
+  font-family: 'Josefin Sans', 'Lekton', 'Cardo';
+}
+.progress .progress-bar { 
+font: normal 12px 'Allerta', 'Crimson Text', 'PT Sans';
+background: #4F6D7A !important;
+text-align: left;
+  text-indent: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  text-shadow: none;
+  line-height: 17px;
+  font-size: 1.2em;
+}
+.progress:hover .progress-bar {
+  background: #E9CCC4 !important;
+}
+.progress-bar {
+  text-align: left;
+  transition-duration: 4s;
+}
