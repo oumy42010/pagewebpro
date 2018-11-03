@@ -45,7 +45,7 @@
   <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div class="container">
+    <div id="haut" class="container">
       <!-- ========================================== Menu ============================================== -->
       <nav class="navbar navbar-expand-lg navbar-light style="background-color: #e3f2fd;" >
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -249,6 +249,17 @@
             </div>
            </div><!-- end Grid row-->
         </div>
+
+	 <!--=== bouton de defilement haut ============================================================================-->
+        <div><a id="rHaut" class="rInvisible" href="#haut"></a></div>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            window.onscroll = function(ev) {
+              document.getElementById("rHaut").className = (window.pageYOffset > 100) ? "rVisible" : "rInvisible";
+            };
+          });
+        </script>
+
 
     </div><!-- end container -->
     <!-- Optional JavaScript -->
