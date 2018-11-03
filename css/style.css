@@ -112,4 +112,39 @@ text-align: left;
 .progress-bar {
   text-align: left;
   transition-duration: 4s;
+} 
+
+
+a#rHaut{
+  border-radius:3px;
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  color:#fff;
+  background:rgba(0, 0, 0, 0.25);
+  position:fixed;
+  right:20px;
+  opacity:1;
+  z-index:99999;
+  transition:all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+a#rHaut:before{ content: "\25b2"; }
+
+a#rHaut:hover{
+  background:rgba(0, 0, 0, 1);
+  transition:all ease-in 0.2s;
+}
+a#rHaut.rInvisible{
+  bottom:-35px;
+  opacity:0;
+  transition:all ease-in 0.5s;
+}
+
+a#rHaut.rVisible{
+  bottom:20px;
+  opacity:1;
 }
